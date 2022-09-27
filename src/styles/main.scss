@@ -1,0 +1,24 @@
+.page {
+	display: grid;
+	width: 100%;
+	height: 100%;
+	padding: 10px 0;
+
+	font-size: 100%;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+	&__catalog {
+		width: 1060px;
+		margin: auto;
+	}
+
+	&__cart {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+
+		border: 1px solid hsl(0, 0%, 33%);
+
+		border-radius: 3px;
+	}
+}

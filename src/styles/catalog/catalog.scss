@@ -1,0 +1,19 @@
+.catalog-list {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	gap: 5px;
+	margin: 0;
+	padding: 0;
+
+	list-style: none;
+
+
+	&__item {
+		flex: 1 0 calc(50% - 5px);
+		margin: 0;
+		border: 1px solid hsl(0, 0%, 33%);
+
+		border-radius: 3px 3px 0 0;
+	}
+}
